@@ -2,8 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.google.protobuf'
 android {
-    compileSdkVersion 31
-    buildToolsVersion "31"
+    compileSdkVersion 32
+    //buildToolsVersion "32"
 
     defaultConfig {
         applicationId "com.google.android.diskusage"
@@ -54,5 +54,5 @@ dependencies {
     implementation "com.louiscad.splitties:splitties-toast:$splitties_version"
     implementation "com.louiscad.splitties:splitties-resources:$splitties_version"
 
-    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.2'
 }
